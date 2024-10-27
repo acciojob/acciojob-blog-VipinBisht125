@@ -10,3 +10,14 @@ body {
 h1 {
   text-align: center;
 }
+h3 a {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer; /* Change cursor to pointer for better UX */
+}
+
+h3 a:hover {
+  color: darkblue; /* Change color on hover */
+}
+
+
