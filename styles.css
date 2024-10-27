@@ -1,1 +1,12 @@
 /*  your css code here. If applicable */
+body {
+  padding: 25px;
+}
+
+.title {
+  color: #5C6AC4;
+}
+
+h1 {
+  text-align: center;
+}
