@@ -10,6 +10,12 @@ body {
 h1 {
   text-align: center;
 }
+
+h2{
+	color: purple;
+	text-decoration: underline;
+}
+
 h3 a {
   color: blue;
   text-decoration: underline;
@@ -19,5 +25,3 @@ h3 a {
 h3 a:hover {
   color: darkblue; /* Change color on hover */
 }
-
-
