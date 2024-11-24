@@ -1,26 +1,104 @@
-/*  your css code here. If applicable */
+/* Global styles */
 body {
-  padding: 25px;
-}
-
-.title {
-  color: #5C6AC4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
 h1 {
-  text-align: center;
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
 }
 
-h2{
-	color: purple;
+h2 {
+    text-align: left;
+    color: purple;
+    margin-top: 20px;
 	text-decoration: underline;
 }
 
-h3 a {
-  color: blue;
-  text-decoration: underline;
-  cursor: pointer; /* Change cursor to pointer for better UX */
+
+
+h3, h4, h5{
+    color: #2c3e50;
+    margin: 15px 0;
 }
 
-h3 a:hover {
-  color: darkblue; /* Change color on hover */
+/* Marquee styling */
+marquee {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+}
+
+/* Styling for images */
+.small-img {
+    display: block;
+    margin-left: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	
+}
+
+/* Links Styling */
+a {
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin: 10px 0;
+	text-decoration:underline:
+}
+
+p a {
+    color: blue;
+    font-weight: normal;
+    text-decoration: decoration;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .small-img {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2, h3, h4, h5 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/* Styling for paragraph visibility toggling */
+#optimization-paragraph, #dsa-paragraph, #flexbox-paragraph {
+    display: none;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #e7f3fe;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
